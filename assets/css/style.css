@@ -1,0 +1,228 @@
+/* Fixed Page */
+
+
+
+#wallpaper {
+display: block;
+height: 700px;
+position: fixed;
+left: 0px;
+top: 80px;
+height: 100%;
+width: 100%;
+z-index: -100;
+
+	 
+}
+
+.wallpaper-resize {
+width: 100%;
+height: auto;
+
+}
+
+#navbar {
+	position: fixed;
+	height: 70px;
+	width: 100%;
+	background-color: white;
+	z-index: 3;
+}
+
+
+.nav-partition {
+	position: relative;
+	height: 100%;
+	bottom: 0;
+}
+
+#nav-left {
+	position: absolute;
+	width: 0px;
+	display: inline-block;
+}
+
+.navtabmenu {
+	list-style-type: none;
+	white-space: nowrap;
+	display: inline-block;
+	right: 50px;
+}
+
+.navtabmenu li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 40px;
+	font-weight: bold;
+	right: -850px;
+}
+
+.choice {
+	position: relative;
+	top: 5px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	display: inline;
+	background-color: white;
+	text-decoration: none;
+	color: black;
+}
+
+#selected {
+	color: #FF0000;
+	background-color: white;
+	border-style: black;
+	border-width: 10px;
+	border-top-color: #5F99CF;
+	border-left-color: #5F99CF;
+	border-right-color: #5F99CF;
+	border-bottom-color: white;
+	z-index: 10;
+}
+
+#nav-right {
+	position: absolute;
+	width: 300px;
+	height: 55%;
+	right: 0;
+	background-color: #EFF7FF;
+	border-top-left-radius: 5px;
+	z-index: 100;
+
+}
+
+
+#googlefont {font-family: 
+'Open Sans', sans-serif;
+font-weight: 400;
+
+
+}
+
+a {
+text-decoration: none;
+}
+
+
+/* Main Page */
+#main-container {
+  height: 100%;
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  }
+
+ #banner-text {
+	position: absolute;
+    top: 100px;
+    left: -70px; 
+    width: 300px;
+    text-align: center;
+    padding-left: 100px;
+    padding-top: 70px;
+    vertical-align: center;
+    z-index: 2;
+ 
+ }
+
+ #heading {
+ 	font-family: 'Righteous', 'cursive';
+ 	color: orange;
+ 	font-size: 50px;
+
+
+
+ }
+
+ #subheading {
+	font-family: 'Roboto', sans-serif;
+ 	color: white;
+ 	font-size: 15px;
+ 	font-weight: 300;	
+
+}
+
+ table, table td{
+ 	border: 0;
+ 	padding-top: 100px;
+ }
+
+table .image-column {
+	float: left;
+	border-spacing: 200px;
+    height: auto;
+    padding-left: 80px;
+}
+table .table-words{
+	color: white;
+	font-size: 20px;
+	padding-right: 50px;
+	text-align: center;
+	font: 'Roboto', sans-serif;
+}
+
+
+
+
+/* Hobbies Page */
+
+
+ #content-container{
+ 	display: block;
+ 	width: 1000px;
+	}
+
+ .hello-section{
+ 	padding-top: 20px;
+    padding-left: 20px;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    padding-top: 100px;
+    padding-left: -400px;
+    margin-right: 100px;
+
+ }
+
+.hello-content{
+	font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px 20px;
+    background-color: transparent;
+    z-index: 4;
+}
+
+
+#about-content{
+	color: white !important;
+	font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 70px;
+    background-color: transparent;
+    z-index: 2;
+}
+
+#link {
+
+width: 200px;
+margin: 40px auto;
+padding: 10px 40px;
+font-size: 20px;
+color: red;
+background-color: orange;
+text-decoration: none;
+opacity: .6;
+
+}
+
+
+    
